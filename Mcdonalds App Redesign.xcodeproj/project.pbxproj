@@ -9,21 +9,43 @@
 /* Begin PBXBuildFile section */
 		841D9DA8239AC5F7007F3101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DA7239AC5F7007F3101 /* AppDelegate.swift */; };
 		841D9DAA239AC5F7007F3101 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DA9239AC5F7007F3101 /* SceneDelegate.swift */; };
-		841D9DAC239AC5F7007F3101 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DAB239AC5F7007F3101 /* ContentView.swift */; };
+		841D9DAC239AC5F7007F3101 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DAB239AC5F7007F3101 /* LoginView.swift */; };
 		841D9DAE239AC5FD007F3101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841D9DAD239AC5FD007F3101 /* Assets.xcassets */; };
 		841D9DB1239AC5FD007F3101 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841D9DB0239AC5FD007F3101 /* Preview Assets.xcassets */; };
 		841D9DB4239AC5FD007F3101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841D9DB2239AC5FD007F3101 /* LaunchScreen.storyboard */; };
+		841D9DBE239AC75C007F3101 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DBD239AC75C007F3101 /* WelcomeView.swift */; };
+		841D9DC0239AC76E007F3101 /* BackgroundImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DBF239AC76E007F3101 /* BackgroundImageView.swift */; };
+		841D9DC2239AC781007F3101 /* MenuButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DC1239AC781007F3101 /* MenuButtonView.swift */; };
+		841D9DC4239AC79A007F3101 /* WelcomeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DC3239AC79A007F3101 /* WelcomeTextView.swift */; };
+		841D9DC6239AC7AF007F3101 /* SignInOrCreateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DC5239AC7AF007F3101 /* SignInOrCreateView.swift */; };
+		841D9DC9239AC7D0007F3101 /* WelcomeBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DC8239AC7D0007F3101 /* WelcomeBottomView.swift */; };
+		841D9DCB239AC7EE007F3101 /* WelcomeBottomButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DCA239AC7EE007F3101 /* WelcomeBottomButtonsView.swift */; };
+		841D9DCD239AC840007F3101 /* LoginButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DCC239AC840007F3101 /* LoginButtonsView.swift */; };
+		841D9DCF239AC85E007F3101 /* GetTheGoodsTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DCE239AC85E007F3101 /* GetTheGoodsTextView.swift */; };
+		841D9DD1239AC879007F3101 /* ContinueButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DD0239AC879007F3101 /* ContinueButtonView.swift */; };
+		841D9DD3239AC894007F3101 /* LoginTextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DD2239AC894007F3101 /* LoginTextFieldView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		841D9DA4239AC5F7007F3101 /* Mcdonalds App Redesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mcdonalds App Redesign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		841D9DA7239AC5F7007F3101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		841D9DA9239AC5F7007F3101 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		841D9DAB239AC5F7007F3101 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		841D9DAB239AC5F7007F3101 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		841D9DAD239AC5FD007F3101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841D9DB0239AC5FD007F3101 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		841D9DB3239AC5FD007F3101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841D9DB5239AC5FD007F3101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841D9DBD239AC75C007F3101 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		841D9DBF239AC76E007F3101 /* BackgroundImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundImageView.swift; sourceTree = "<group>"; };
+		841D9DC1239AC781007F3101 /* MenuButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonView.swift; sourceTree = "<group>"; };
+		841D9DC3239AC79A007F3101 /* WelcomeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeTextView.swift; sourceTree = "<group>"; };
+		841D9DC5239AC7AF007F3101 /* SignInOrCreateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInOrCreateView.swift; sourceTree = "<group>"; };
+		841D9DC8239AC7D0007F3101 /* WelcomeBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomView.swift; sourceTree = "<group>"; };
+		841D9DCA239AC7EE007F3101 /* WelcomeBottomButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeBottomButtonsView.swift; sourceTree = "<group>"; };
+		841D9DCC239AC840007F3101 /* LoginButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginButtonsView.swift; sourceTree = "<group>"; };
+		841D9DCE239AC85E007F3101 /* GetTheGoodsTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetTheGoodsTextView.swift; sourceTree = "<group>"; };
+		841D9DD0239AC879007F3101 /* ContinueButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContinueButtonView.swift; sourceTree = "<group>"; };
+		841D9DD2239AC894007F3101 /* LoginTextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTextFieldView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +78,13 @@
 		841D9DA6239AC5F7007F3101 /* Mcdonalds App Redesign */ = {
 			isa = PBXGroup;
 			children = (
-				841D9DA7239AC5F7007F3101 /* AppDelegate.swift */,
-				841D9DA9239AC5F7007F3101 /* SceneDelegate.swift */,
-				841D9DAB239AC5F7007F3101 /* ContentView.swift */,
+				841D9DBB239AC683007F3101 /* App Delegate */,
+				841D9DBC239AC6D0007F3101 /* Welcome View */,
+				841D9DAB239AC5F7007F3101 /* LoginView.swift */,
+				841D9DCC239AC840007F3101 /* LoginButtonsView.swift */,
+				841D9DCE239AC85E007F3101 /* GetTheGoodsTextView.swift */,
+				841D9DD0239AC879007F3101 /* ContinueButtonView.swift */,
+				841D9DD2239AC894007F3101 /* LoginTextFieldView.swift */,
 				841D9DAD239AC5FD007F3101 /* Assets.xcassets */,
 				841D9DB2239AC5FD007F3101 /* LaunchScreen.storyboard */,
 				841D9DB5239AC5FD007F3101 /* Info.plist */,
@@ -73,6 +99,29 @@
 				841D9DB0239AC5FD007F3101 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		841D9DBB239AC683007F3101 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				841D9DA7239AC5F7007F3101 /* AppDelegate.swift */,
+				841D9DA9239AC5F7007F3101 /* SceneDelegate.swift */,
+			);
+			path = "App Delegate";
+			sourceTree = "<group>";
+		};
+		841D9DBC239AC6D0007F3101 /* Welcome View */ = {
+			isa = PBXGroup;
+			children = (
+				841D9DBD239AC75C007F3101 /* WelcomeView.swift */,
+				841D9DBF239AC76E007F3101 /* BackgroundImageView.swift */,
+				841D9DC1239AC781007F3101 /* MenuButtonView.swift */,
+				841D9DC3239AC79A007F3101 /* WelcomeTextView.swift */,
+				841D9DC5239AC7AF007F3101 /* SignInOrCreateView.swift */,
+				841D9DC8239AC7D0007F3101 /* WelcomeBottomView.swift */,
+				841D9DCA239AC7EE007F3101 /* WelcomeBottomButtonsView.swift */,
+			);
+			name = "Welcome View";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +195,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				841D9DCD239AC840007F3101 /* LoginButtonsView.swift in Sources */,
+				841D9DCF239AC85E007F3101 /* GetTheGoodsTextView.swift in Sources */,
+				841D9DC0239AC76E007F3101 /* BackgroundImageView.swift in Sources */,
 				841D9DA8239AC5F7007F3101 /* AppDelegate.swift in Sources */,
 				841D9DAA239AC5F7007F3101 /* SceneDelegate.swift in Sources */,
-				841D9DAC239AC5F7007F3101 /* ContentView.swift in Sources */,
+				841D9DC6239AC7AF007F3101 /* SignInOrCreateView.swift in Sources */,
+				841D9DD3239AC894007F3101 /* LoginTextFieldView.swift in Sources */,
+				841D9DC2239AC781007F3101 /* MenuButtonView.swift in Sources */,
+				841D9DAC239AC5F7007F3101 /* LoginView.swift in Sources */,
+				841D9DCB239AC7EE007F3101 /* WelcomeBottomButtonsView.swift in Sources */,
+				841D9DBE239AC75C007F3101 /* WelcomeView.swift in Sources */,
+				841D9DC4239AC79A007F3101 /* WelcomeTextView.swift in Sources */,
+				841D9DD1239AC879007F3101 /* ContinueButtonView.swift in Sources */,
+				841D9DC9239AC7D0007F3101 /* WelcomeBottomView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
