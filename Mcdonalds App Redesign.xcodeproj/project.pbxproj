@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		841D9DA8239AC5F7007F3101 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DA7239AC5F7007F3101 /* AppDelegate.swift */; };
+		841D9DAA239AC5F7007F3101 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DA9239AC5F7007F3101 /* SceneDelegate.swift */; };
+		841D9DAC239AC5F7007F3101 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D9DAB239AC5F7007F3101 /* ContentView.swift */; };
+		841D9DAE239AC5FD007F3101 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841D9DAD239AC5FD007F3101 /* Assets.xcassets */; };
+		841D9DB1239AC5FD007F3101 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841D9DB0239AC5FD007F3101 /* Preview Assets.xcassets */; };
+		841D9DB4239AC5FD007F3101 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841D9DB2239AC5FD007F3101 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		841D9DA4239AC5F7007F3101 /* Mcdonalds App Redesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mcdonalds App Redesign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		841D9DA7239AC5F7007F3101 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		841D9DA9239AC5F7007F3101 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		841D9DAB239AC5F7007F3101 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		841D9DAD239AC5FD007F3101 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		841D9DB0239AC5FD007F3101 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		841D9DB3239AC5FD007F3101 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		841D9DB5239AC5FD007F3101 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841D9DA1239AC5F7007F3101 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841D9D9B239AC5F7007F3101 = {
+			isa = PBXGroup;
+			children = (
+				841D9DA6239AC5F7007F3101 /* Mcdonalds App Redesign */,
+				841D9DA5239AC5F7007F3101 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841D9DA5239AC5F7007F3101 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841D9DA4239AC5F7007F3101 /* Mcdonalds App Redesign.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841D9DA6239AC5F7007F3101 /* Mcdonalds App Redesign */ = {
+			isa = PBXGroup;
+			children = (
+				841D9DA7239AC5F7007F3101 /* AppDelegate.swift */,
+				841D9DA9239AC5F7007F3101 /* SceneDelegate.swift */,
+				841D9DAB239AC5F7007F3101 /* ContentView.swift */,
+				841D9DAD239AC5FD007F3101 /* Assets.xcassets */,
+				841D9DB2239AC5FD007F3101 /* LaunchScreen.storyboard */,
+				841D9DB5239AC5FD007F3101 /* Info.plist */,
+				841D9DAF239AC5FD007F3101 /* Preview Content */,
+			);
+			path = "Mcdonalds App Redesign";
+			sourceTree = "<group>";
+		};
+		841D9DAF239AC5FD007F3101 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				841D9DB0239AC5FD007F3101 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841D9DA3239AC5F7007F3101 /* Mcdonalds App Redesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841D9DB8239AC5FD007F3101 /* Build configuration list for PBXNativeTarget "Mcdonalds App Redesign" */;
+			buildPhases = (
+				841D9DA0239AC5F7007F3101 /* Sources */,
+				841D9DA1239AC5F7007F3101 /* Frameworks */,
+				841D9DA2239AC5F7007F3101 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mcdonalds App Redesign";
+			productName = "Mcdonalds App Redesign";
+			productReference = 841D9DA4239AC5F7007F3101 /* Mcdonalds App Redesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841D9D9C239AC5F7007F3101 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Gio Lucero";
+				TargetAttributes = {
+					841D9DA3239AC5F7007F3101 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 841D9D9F239AC5F7007F3101 /* Build configuration list for PBXProject "Mcdonalds App Redesign" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841D9D9B239AC5F7007F3101;
+			productRefGroup = 841D9DA5239AC5F7007F3101 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841D9DA3239AC5F7007F3101 /* Mcdonalds App Redesign */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841D9DA2239AC5F7007F3101 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841D9DB4239AC5FD007F3101 /* LaunchScreen.storyboard in Resources */,
+				841D9DB1239AC5FD007F3101 /* Preview Assets.xcassets in Resources */,
+				841D9DAE239AC5FD007F3101 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841D9DA0239AC5F7007F3101 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841D9DA8239AC5F7007F3101 /* AppDelegate.swift in Sources */,
+				841D9DAA239AC5F7007F3101 /* SceneDelegate.swift in Sources */,
+				841D9DAC239AC5F7007F3101 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		841D9DB2239AC5FD007F3101 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841D9DB3239AC5FD007F3101 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841D9DB6239AC5FD007F3101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		841D9DB7239AC5FD007F3101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		841D9DB9239AC5FD007F3101 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mcdonalds App Redesign/Preview Content\"";
+				DEVELOPMENT_TEAM = 4U64LS4Z7F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Mcdonalds App Redesign/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "giolucero.Mcdonalds-App-Redesign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		841D9DBA239AC5FD007F3101 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Mcdonalds App Redesign/Preview Content\"";
+				DEVELOPMENT_TEAM = 4U64LS4Z7F;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Mcdonalds App Redesign/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "giolucero.Mcdonalds-App-Redesign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841D9D9F239AC5F7007F3101 /* Build configuration list for PBXProject "Mcdonalds App Redesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841D9DB6239AC5FD007F3101 /* Debug */,
+				841D9DB7239AC5FD007F3101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841D9DB8239AC5FD007F3101 /* Build configuration list for PBXNativeTarget "Mcdonalds App Redesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841D9DB9239AC5FD007F3101 /* Debug */,
+				841D9DBA239AC5FD007F3101 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841D9D9C239AC5F7007F3101 /* Project object */;
+}
